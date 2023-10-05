@@ -1,0 +1,9 @@
+diff -up lager-0.1.0/resources/gui/makefile.omv~ lager-0.1.0/resources/gui/makefile
+--- lager-0.1.0/resources/gui/makefile.omv~	2023-10-05 16:16:24.673006038 +0200
++++ lager-0.1.0/resources/gui/makefile	2023-10-05 16:17:23.651571738 +0200
+@@ -10,4 +10,4 @@ else
+ endif
+ 
+ gui.css: gui.scss
+-	sass --scss $< $@
++	sassc $< $@
