@@ -14,6 +14,7 @@ BuildRequires: ninja
 BuildRequires: %mklibname -d zug
 BuildRequires: cmake(Immer)
 BuildRequires: sassc
+BuildRequires: boost-devel
 BuildArch: noarch
 
 %description
