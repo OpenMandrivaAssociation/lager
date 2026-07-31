@@ -1,10 +1,10 @@
 %define devname %mklibname lager -d
 
 Name: lager
-Version: 0.1.0
+Version: 0.1.3
 Release: 1
 Source0: https://github.com/arximboldi/lager/archive/refs/tags/v%{version}.tar.gz
-Patch0: lager-0.1.0-sassc.patch
+# dropped (no longer applies): Patch0: lager-0.1.3-sassc.patch
 Summary: C++ library to assist value-oriented design by implementing the unidirectional data-flow architecture
 URL: https://github.com/arximboldi/lager
 License: BSL-1.0
